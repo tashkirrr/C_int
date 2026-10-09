@@ -4,7 +4,10 @@ int main() {
     float A, B;
     double C, D;
 
-    while (scanf("%f %f %lf %lf", &A, &B, &C, &D) != EOF) {
+    while (scanf("%f %f %lf %lf", &A, &B, &C, &D) != EOF) 
+    
+    {
+
         printf("A = %f, B = %f\n", A, B);
         printf("C = %lf, D = %lf\n", C, D);
 
